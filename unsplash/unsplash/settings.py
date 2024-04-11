@@ -15,12 +15,12 @@ NEWSPIDER_MODULE = "unsplash.spiders"
 ITEM_PIPELINES = {
     'scrapy.pipelines.images.ImagesPipeline': 1,
 }
-IMAGES_STORE = 'images/'
+IMAGES_STORE = 'unsplash/images'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = "unsplash (+http://www.yourdomain.com)"
-USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/U110.0.0.0 Safari/17.2.1"
-#USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/U110.0.0.0 Safari/537.36"
+#USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/U110.0.0.0 Safari/17.2.1"
+USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/U110.0.0.0 Safari/537.36"
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
